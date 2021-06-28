@@ -25,8 +25,8 @@ on:
   pull_request:
     # The branches below must be a subset of the branches above
     branches: [ master ]
-  schedule:
-    - cron: '21 4 * * 0'
+  #schedule:
+    #- cron: '57 9 * * 1'
 
 jobs:
   rest-api-static-security-testing:
